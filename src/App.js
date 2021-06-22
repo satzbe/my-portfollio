@@ -4,6 +4,7 @@ import Footer from './Component/Footer';
 import Navbar from './Component/Header';
 import About from './Pages/About/About';
 import Home from './Pages/Home/Home';
+import Default from './Pages/Home/Home';
 import Projects from './Pages/Projects/Projects';
 import Skills from './Pages/Skills/Skills';
 
@@ -13,6 +14,7 @@ const App = () => {
       <Navbar />
       <Switch>
         <Route  path='/' exact component={Home} />
+        <Route  path='/my-portfollio' exact component={Default} />
         <Route path='/skills' exact component={Skills} />
         <Route path='/projects' exact component={Projects} />
         <Route path='/about' exact component={About} />
