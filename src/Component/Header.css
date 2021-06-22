@@ -1,0 +1,36 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+.header h3 {
+  font-family: 'Courgette', cursive;
+  text-shadow: 1px 2px 1px #000;
+  color: rgb(233, 221, 221);
+}
+.header h3:hover {
+  font-family: 'Courgette', cursive;
+  text-shadow: 1px 2px 1px #000;
+  color: rgb(24, 231, 203);
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(231, 219, 219);
+  margin: 0 10px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(255, 255, 255);
+  border-bottom: 3px solid #117de9;
+}
+.ml-auto,
+.mx-auto {
+  align-self: flex-end;
+  margin-right: 100px;
+}
+.bg-dark {
+  background-color: #0e1822 !important;
+}
+.icons:hover {
+  color: #e5e911;
+}
