@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Footer from './Component/Footer';
 import Navbar from './Component/Header';
 import About from './Pages/About/About';
 import Home from './Pages/Home/Home';
@@ -16,6 +17,7 @@ const App = () => {
         <Route path='/projects' exact component={Projects} />
         <Route path='/about' exact component={About} />
       </Switch>
+      <Footer />
     </Router>
   );
 };

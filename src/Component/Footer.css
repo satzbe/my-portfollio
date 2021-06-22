@@ -1,0 +1,8 @@
+.foot {
+  background-color: black;
+}
+.foot .col {
+  color: rgb(18, 21, 161);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  align-self: center;
+}
