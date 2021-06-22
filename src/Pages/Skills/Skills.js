@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.css';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import { ImHtmlFive2 } from 'react-icons/im';
 import {
   SiRedux,
