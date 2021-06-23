@@ -29,9 +29,13 @@ const About = () => (
           also trusted its worth a risk
           <br />
           <br />
-          Then started learning frontend basics HTML, CSS and JavaScript.
-          <br /> Completed udemy certfication on HTML and CSS. <br />
-          Then I chose React and learned it.
+          Small interest became passion Then started learning frontend basics
+          HTML,
+          <br />
+          CSS and JavaScript. Completed udemy certfication on HTML and CSS.{' '}
+          <br />
+          Finally chose this path of web developer. <br />
+          Let begin a new chapter.
         </p>
       </Container>
     </Container>
