@@ -3,14 +3,13 @@
   height: 100vh;
   background: rgba(0, 0, 0, 0.8) url('../../Assets/code.jpg') center
     center/cover no-repeat;
-  filter: blur(2px);
 }
 .skillSet {
-  position: absolute;
+  position: relative;
   align-self: center;
   z-index: 1;
-  top: 10px;
-  padding: 80px 0 0;
+  top: 20px;
+  padding: 100px 0 0;
 }
 .row h2 {
   color: rgb(1, 26, 29);

@@ -4,7 +4,8 @@ import Projects from '../Projects/Projects';
 import './Home.css';
 import Type from './Type';
 import { Link, Element } from 'react-scroll';
-
+import Skills from '../Skills/Skills';
+import About from '../About/About';
 const Home = () => (
   <>
     <Container fluid className='home'></Container>
@@ -26,7 +27,12 @@ const Home = () => (
     <Element id='project'>
       <Projects />
     </Element>
-   
+    <Element id='skill'>
+      <Skills />
+    </Element>
+    <Element id='about'>
+      <About />
+    </Element>
   </>
 );
 
