@@ -26,6 +26,7 @@ const Home = () => (
     <Element id='project'>
       <Projects />
     </Element>
+   
   </>
 );
 

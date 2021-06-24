@@ -9,14 +9,13 @@ import Skills from './Pages/Skills/Skills';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Switch>
-        <Route path='/my-portfollio/' exact component={Home} />
         <Route path='/' exact component={Home} />
-        <Route path='/my-portfollio/skills' component={Skills} />
-        <Route path='/my-portfollio/projects' component={Projects} />
-        <Route path='/my-portfollio/about' component={About} />
+        <Route path='/skills' component={Skills} />
+        <Route path='/projects' component={Projects} />
+        <Route path='/about' component={About} />
       </Switch>
       <Footer />
     </Router>

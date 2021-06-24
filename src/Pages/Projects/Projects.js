@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <Container fluid className='project'>
       <h1>Project...</h1>
-      <Container>
+      <Container className='justify-content-center'>
         <Card style={{ width: '18rem' }}>
           <Card.Img variant='top' src={WeA} />
           <Card.Body>

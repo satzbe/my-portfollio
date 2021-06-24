@@ -14,10 +14,9 @@ const Header = () => {
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>
         <Nav className='ml-auto'>
-          <Nav.Link href='/my-portfollio/'>Home</Nav.Link>
-          <Nav.Link href='/my-portfollio/about'>About Me</Nav.Link>
-          <Nav.Link href='/my-portfollio/projects'>Projects</Nav.Link>
-          <Nav.Link href='/my-portfollio/skills'>Skills</Nav.Link>
+          <Nav.Link href='/projects'>Projects</Nav.Link>
+          <Nav.Link href='/skills'>Skills</Nav.Link>
+          <Nav.Link href='/about'>About Me</Nav.Link>
           <Nav.Link href='https://www.linkedin.com/in/sathish-kumar-r-290596'>
             <FiLinkedin className='icons' />
           </Nav.Link>
