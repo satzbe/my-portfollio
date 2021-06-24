@@ -8,7 +8,7 @@ const Header = () => {
   const toTop = () => Scroll.scrollToTop();
   return (
     <Navbar className='header' bg='dark' variant='dark' expand='lg'>
-      <Navbar.Brand href='/my-portfollio/'>
+      <Navbar.Brand href='/'>
         <h3 onClick={toTop}>SK</h3>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
